@@ -1,0 +1,491 @@
+.main {
+    width: 100%;
+    background-color: #EAF1FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.logoImgParent {
+    position: relative;
+    width: 163px;
+    height: 32px;
+    align-self: flex-start;
+    margin-bottom: 33px;
+    border-radius: 16px !important;
+}
+
+.contentParent {
+    width: 1131px;
+    height: auto;
+    display: flex;
+}
+
+.ImgParent {
+    width: 50%;
+    height: auto;
+}
+
+.signupImgParent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 36px; */
+}
+
+.formParent {
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.signup {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 23px;
+}
+
+.registerContent {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    line-height: 18px;
+    padding-bottom: 32px;
+}
+
+.blueTxt {
+    color: #2871DE;
+}
+
+.emailTxt {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+
+.emailBox {
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    padding-left: 14px;
+    outline: none;
+    border-right: 0.5px solid var(--Grey, #9B9B9B);
+    border-radius: 19px;
+    padding-right: 14px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.emailIcon {
+    z-index: 22;
+    top: 27px;
+    left: 14px;
+}
+
+.password {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+
+.inputParent {
+    display: flex;
+    width: 329px;
+    height: 38px;
+    border-radius: 19px;
+    border: 0.5px solid var(--Grey, #9B9B9B);
+    padding-left: 14px;
+    margin-bottom: 19px;
+}
+
+
+.passwordBox {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 14px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.passwordBoxParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 329px;
+    height: 38px;
+    border-radius: 19px;
+    border: 0.5px solid var(--Grey, #9B9B9B);
+    background: #FFF;
+    padding: 0 14px;
+    margin-bottom: 14px;
+}
+
+.checkboxParent {
+    display: flex;
+}
+
+.rememberTxt {
+    color: var(--Black, #000);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.forgotParent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 329px;
+    padding-bottom: 29px;
+}
+
+.forgotTxt {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2871DE;
+    line-height: 18px;
+}
+
+.signinButton {
+    width: 329px;
+    height: 38px;
+    background-color: #2871DE;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.hrTag {
+    width: 124px;
+}
+
+.hrParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    padding-bottom: 13px;
+}
+
+.orTxt {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A7A9B7;
+}
+
+.googleBtn {
+    width: 329px;
+    height: 38px;
+    border-radius: 100px;
+    border: 0.5px solid #0B0B0B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.copyRightTxt {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9B9B9B;
+}
+
+.formSection {
+    max-width: 336px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Img {
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1230px) {
+    .contentParent {
+        width: 970px;
+        display: flex;
+    }
+
+    .logoImgParent {
+        margin-bottom: 33px;
+    }
+
+    .signup {
+
+        padding-bottom: 23px;
+    }
+
+    .registerContent {
+        padding-bottom: 32px;
+    }
+
+    .emailTxt {
+        padding-bottom: 14px;
+    }
+
+    .inputParent {
+
+        margin-bottom: 19px;
+    }
+
+    .password {
+        padding-bottom: 14px;
+    }
+
+    .passwordBoxParent {
+        margin-bottom: 14px;
+    }
+
+    .forgotParent {
+        padding-bottom: 29px;
+    }
+
+    .googleBtn {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contentParent {
+        width: 800px;
+        display: flex;
+    }
+
+    .logoImgParent {
+        margin-bottom: 20px;
+    }
+
+    .signup {
+
+        padding-bottom: 13px;
+    }
+
+    .registerContent {
+        padding-bottom: 20px;
+    }
+
+    .emailTxt {
+        padding-bottom: 10px;
+    }
+
+    .inputParent {
+
+        margin-bottom: 14px;
+    }
+
+    .password {
+        padding-bottom: 10px;
+    }
+
+    .passwordBoxParent {
+        margin-bottom: 10px;
+    }
+
+    .forgotParent {
+        padding-bottom: 19px;
+    }
+
+    .googleBtn {
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .contentParent {
+        width: 730px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ImgParent {
+        display: none;
+        width: 50%;
+        height: auto;
+    }
+
+    .formParent {
+        width: 100%;
+        background-color: #FFFFFF;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+
+    .main {
+        width: 100%;
+        background-color: #86aae6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0;
+    }
+
+    .contentParent {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .inputParent {
+        display: flex;
+        width: 300px;
+        height: 38px;
+        border-radius: 19px;
+        border: 0.5px solid var(--Grey, #9B9B9B);
+        padding-left: 14px;
+        margin-bottom: 19px;
+    }
+
+    .passwordBoxParent {
+        display: flex;
+        width: 300px;
+        height: 38px;
+        border-radius: 19px;
+        border: 0.5px solid var(--Grey, #9B9B9B);
+        background: #FFF;
+        padding: 0 14px;
+        margin-bottom: 14px;
+    }
+
+    .forgotParent {
+        display: flex;
+        justify-content: space-between;
+        max-width: 300px;
+        padding-bottom: 29px;
+    }
+
+    .signinButton {
+        width: 300px;
+        height: 38px;
+        background-color: #2871DE;
+        border-radius: 100px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 13px;
+    }
+
+    .hrTag {
+        width: 110px;
+    }
+
+    .hrParent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 12px;
+        padding-bottom: 13px;
+    }
+
+    .googleBtn {
+        width: 300px;
+        height: 38px;
+        border-radius: 100px;
+        border: 0.5px solid #0B0B0B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 18px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .inputParent {
+        display: flex;
+        width: 270px;
+        height: 38px;
+        border-radius: 19px;
+        border: 0.5px solid var(--Grey, #9B9B9B);
+        padding-left: 14px;
+        margin-bottom: 19px;
+    }
+
+    .passwordBoxParent {
+        display: flex;
+        width: 270px;
+        height: 38px;
+        border-radius: 19px;
+        border: 0.5px solid var(--Grey, #9B9B9B);
+        background: #FFF;
+        padding: 0 14px;
+        margin-bottom: 14px;
+    }
+
+    .forgotParent {
+        display: flex;
+        justify-content: space-between;
+        max-width: 270px;
+        padding-bottom: 29px;
+    }
+
+    .signinButton {
+        width: 270px;
+        height: 38px;
+        background-color: #2871DE;
+        border-radius: 100px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 13px;
+    }
+
+    .hrTag {
+        width: 100px;
+    }
+
+    .hrParent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 12px;
+        padding-bottom: 13px;
+    }
+
+    .googleBtn {
+        width: 270px;
+        height: 38px;
+        border-radius: 100px;
+        border: 0.5px solid #0B0B0B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 18px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 48px;
+    }
+}

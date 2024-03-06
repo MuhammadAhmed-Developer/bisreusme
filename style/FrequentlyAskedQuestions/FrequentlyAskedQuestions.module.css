@@ -1,0 +1,229 @@
+.bgImage {
+    width: 100%;
+  }
+  
+  .imageContainer > div {
+    position: unset !important;
+  }
+  
+  .techLogo {
+    object-fit: contain;
+    width: 360px !important;
+    position: relative !important;
+    margin: auto;
+  }
+  
+  .childLogo {
+    padding: 60px 0;
+  }
+  
+  .childs {
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .childs > div {
+    position: unset !important;
+  }
+  
+  .bodyHeader {
+    padding: 0px 60px;
+  }
+  
+  .title {
+    color: #ff6505;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .paragraph {
+    color: #11111d;
+    text-align: center;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .subTitle {
+    font-size: 32px;
+  }
+  
+  .description {
+    font-size: 22px;
+    padding: 0;
+    padding-top: 10px;
+  }
+  
+  .subDescription {
+    font-size: 18px;
+    line-height: 1.8125;
+  }
+  
+  .child {
+    border-bottom: 1px solid #e0e3ed;
+    padding-top: 1.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  
+  .parent {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding: 0px 189px;
+    margin-top: 66px;
+    margin-bottom: 110px;
+  }
+  
+  .parent1 {
+    border-bottom: 1px solid #e0e3ed;
+    padding-top: 1.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  
+  .li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .fqaChild {
+    text-align: center;
+  }
+  
+  /* / accordion styles / */
+  
+  .faq_title {
+    font-size: 32px;
+    margin-bottom: 1rem !important;
+  }
+  
+  .faq_desc {
+    font-size: 18px;
+  }
+  
+  .accordion__faq .inactive {
+    display: none;
+    transition: 0.1s;
+  }
+  
+  .accordion__faq {
+    display: flex;
+    flex-direction: column;
+    gap: 14.66px;
+    position: relative;
+  }
+  .faqParent {
+    border-radius: 21px;
+    background: #fff;
+    box-shadow: 0px 4px 17px 7px #EAF1FC;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .faqParent1 {
+    border-radius: 21px;
+    background: #fff;
+    box-shadow: 0px 4px 17px 7px #EAF1FC;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  
+  .accordion__title {
+    color: var(--text-secondary);
+    padding-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .accordion__faq_heading {
+    display: flex;
+    align-items: center;
+    padding: 30px 28px;
+    gap: 26px;
+  }
+  
+  .accordion__faq_heading .active {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .accordion__faq_heading h3 {
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+  
+  .accordion__faq_heading p {
+    margin: 0;
+  }
+  
+  .active {
+    margin: 0px;
+  }
+  .active1 {
+    color: #5E5E5F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    transition: 0.4s;
+    padding-left: 68px;
+    padding-bottom: 24px;
+    padding-right: 58px;
+  }
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .paragraph {
+      font-size: 32px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+
+  
+    .childs {
+      padding: 0;
+    }
+  
+    .parent {
+      padding: 0 60px 0 60px;
+      width: 100%;
+    }
+  
+    .techLogo {
+      object-fit: contain;
+      width: 200px !important;
+      position: relative !important;
+      margin: auto;
+    }
+  
+    .bodyHeader {
+      padding: 0px 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .parent {
+      padding: 0 30px 0 30px;
+    }
+    .accordion__faq_heading {
+
+      padding: 15px 14px;
+
+    }
+    .accordion__faq_heading .active {
+      color: #000;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    
+    
+  }
+  

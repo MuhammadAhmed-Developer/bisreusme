@@ -1,0 +1,55 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+}
+
+.allTempsBtn {
+    padding: 12px 48px;
+    border-radius: 100px;
+    background: var(--Primary-Blue, #2871DE);
+    box-shadow: 0px 2px 4px 0px rgba(52, 60, 68, 0.16), 0px 0px 1px 0px rgba(117, 131, 142, 0.04);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.borderBtns {
+    padding: 12px 48px;
+    border-radius: 100px;
+    border: 1px solid #2871DE;
+    background: var(--White, #FFF);
+    box-shadow: 0px 2px 4px 0px rgba(52, 60, 68, 0.16), 0px 0px 1px 0px rgba(117, 131, 142, 0.04);
+    color: var(--Primary-Blue, #2871DE);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.buttonsParent {
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    padding-top: 40px;
+}
+
+.imgParent {
+    position: relative;
+    width: 390px;
+    height: 701px;
+    cursor: pointer;
+}
+
+.resumesParent {
+    display: flex;
+    column-gap: 55px;
+    row-gap: 40px;
+    justify-content: center;
+    padding: 43px 80px 0px 80px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,39 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// schema.prisma
+
+model Suggestions {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  SOC            String
+  interest5yrAvg String   @map("5yr-interest-avg")
+  interest12mAvg String   @map("12m-interest-avg")
+  JobTitle       String
+  JobOccupation  String
+  SimilarTitles  String[]
+  genSkills50    String[] @map("50GenSkills")
+  swSkills20     String[] @map("20SWSkills")
+  expAch10       String[] @map("10ExpAch")
+  expGen40       String[] @map("40ExpGen")
+  sumEntry5      String[] @map("5SumEntry")
+  sumJun5        String[] @map("5SumJun")
+  sumAch5        String[] @map("5SumAch")
+  sumGen10       String[] @map("10SumGen")
+  Certs8         String[] @map("8Certs")
+  Assoc8         String[] @map("8Assoc")
+  Inter20        String[] @map("20Inter")
+  sumSen5        String[] @map("5SumSen")
+  expInt50       String[] @map("50ExpInt")
+  sumInt30       String[] @map("30SumInt")
+  expGrad50      String[] @map("50ExpGrad")
+  sumGrad30      String[] @map("30SumGrad")
+}

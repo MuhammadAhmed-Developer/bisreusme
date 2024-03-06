@@ -1,0 +1,111 @@
+.main {
+    width: 100%;
+    height: 84vh   ;
+    background-color: #EAF1FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCard {
+    width: 616px;
+    height: fit-content;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 29px 0 ;
+    border-radius: 16px;
+}
+
+.mainHeading {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 35px;
+}
+
+.paraGraph {
+    max-width: 313px;
+    color: #9B9B9B;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 35px;
+}
+
+.boldTxt {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.inputsParent {
+    display: flex;
+    column-gap: 13px;
+}
+
+.inputBox {
+    width: 67px;
+    height: 67px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background: #F8F9FB;
+    outline: none;
+    color: var(--Black, #000);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.time {
+    color: var(--Black, #000);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 13px;
+}
+
+.btn {
+    width: 329px;
+    height: 38px;
+    border-radius: 19px;
+    border: 0.5px solid var(--Grey, #9B9B9B);
+    background: #2871DE;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.paraText {
+    color: var(--Black, #000);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textBlue {
+    color: #2871DE;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

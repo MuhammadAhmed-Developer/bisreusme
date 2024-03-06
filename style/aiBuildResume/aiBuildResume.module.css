@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    align-items: center;
+    background-color: #EAF1FC;
+    justify-content: center;
+}
+
+.imageParent {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}

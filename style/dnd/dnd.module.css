@@ -1,0 +1,44 @@
+.unselectedDragItems .dragBox {
+  border: 2px dashed rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.unselectedDragItems .dragBox:hover {
+  border: 2px dashed #d0d0d0;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.dragBoxIcon {
+  opacity: 0;
+  text-align: center;
+}
+
+.unselectedDragItems .dragBox:hover > .dragBoxIcon {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  opacity: 1;
+}
+
+.selectedDragItems .dragBox {
+  border: 2px dashed rgba(255, 255, 255, 0);
+}
+
+.icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.icon2 {
+  width: 14px;
+  margin: auto;
+  margin-top: 6px;
+  background-color: transparent;
+
+}
+
+.dndIcon {
+  font-size: 20px;
+  margin-top: 2px;
+}
